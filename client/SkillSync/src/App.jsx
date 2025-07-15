@@ -5,6 +5,8 @@ import Dashboard from './pages/Dashboard';
 import AddLog from './pages/AddLog';
 import Login from './pages/Login';
 import Logout from './pages/Logout';
+import Register from './pages/Register';
+
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/add-log" element={<AddLog />} />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/register" element={<Register />} />
+
       </Routes>
     </div>
   );

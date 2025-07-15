@@ -10,6 +10,7 @@ function Navbar() {
           <li><Link to="/dashboard" className="hover:underline">Dashboard</Link></li>
           <li><Link to="/add-log" className="hover:underline">Add Log</Link></li>
           <li><Link to="/login" className="hover:underline">Login</Link></li>
+          <li><Link to="/register">Register</Link></li>
           <li><Link to="/logout" className="hover:underline">Logout</Link></li>
         </ul>
       </div>
